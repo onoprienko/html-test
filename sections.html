@@ -16,9 +16,9 @@
 
 <body>
 	<header class="header-main"></header>
-	<section class="roulette-section" hide-on-loss>
+	<section class="roulette-section">
 		<div class="roulette">
-			<div class="roulette__disc" roulette-disc>
+			<div class="roulette__disc">
 				<div class="roulette__sector roulette__sector_n">
 					<div class="roulette__title">сертифікат на</div>
 					<div class="roulette__number">200</div>
@@ -59,14 +59,13 @@
 			</div>
 			<div class="roulette__arrow"></div>
 		</div>
-
-		<div class="content" hide-on-win hide-on-attempt>
+		<div class="content">
 			<h1 class="content__title">Виглядайте приголомшливо цієї зими!</h1>
 			<div class="content__text">
 				<p>Крутіть рулетку й вигравайте персональну знижку на шопінг у VR. </p>
 			</div>
 			<div class="form">
-				<form form action="">
+				<form action="">
 					<div class="form__title">Введіть email і номер телефону, щоб забрати свій подарунок. </div>
 					<input class="form__input input" type="email" name="email" placeholder="EMAIL" required>
 					<input class="form__input input" type="tel" name="phone" placeholder="телефон" required>
@@ -74,56 +73,8 @@
 				</form>
 			</div>
 		</div>
-
-		<div class="content" show-on-win hidden>
-			<h1 class="content__title">Вам посміхнулась Удача! </h1>
-			<div class="content__subtitle">Вітаємо, ви виграли знижку на ---- грн.</div>
-			<div class="content__text">
-				<p>Швидше перевіряйте скриньку,<br>email з подробицями там!</p>
-			</div>
-			<a href="#" class="content__btn btn">По стильні подарунки</a>
-		</div>
-
-		<div class="content" show-on-attempt hide-on-win hidden>
-			<h1 class="content__title">Йой! Не вийшло.</h1>
-			<div class="content__text">
-				<p>У вас ще є - спроби. </p>
-			</div>
-			<a href="#" class="content__btn btn" attempt-button>Крутити ще раз</a>
-		</div>
-
 	</section>
-
-
-	<section class="roulette-section" show-on-loss hidden>
-		<div class="content content_alone">
-			<h1 class="content__title">На жаль, спроби крутити рулетку закінчились.</h1>
-			<div class="content__text">
-				<p>Але це не означає, що ви залишились ні з чим. Вигравайте щодня з WOW-акціями у VR!</p>
-			</div>
-			<a href="#" class="content__btn btn">До акцій</a>
-		</div>
-		<div class="categories">
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для жінок</div>
-				</div>
-				<img src="img/cat1.jpg" alt="для жінок">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для чоловіків</div>
-				</div>
-				<img src="img/cat2.jpg" alt="для чоловіків">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-		</div>
-	</section>
-
-	<!-- <section class="roulette-section">
+	<section class="roulette-section">
 		<div class="roulette">
 			<div class="roulette__disc">
 				<div class="roulette__sector roulette__sector_n">
@@ -300,7 +251,7 @@
 				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
 			</a>
 		</div>
-	</section> -->
+	</section>
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
