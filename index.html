@@ -3,304 +3,363 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>dev</title>
+	<title>index</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="icon" href="img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
 	<meta name="theme-color" content="#000">
 	<link rel="stylesheet" href="css/main.min.css">
 </head>
-
 <body>
-	<header class="header-main"></header>
-	<section class="roulette-section" hide-on-loss>
-		<div class="roulette">
-			<div class="roulette__disc" roulette-disc>
-				<div class="roulette__sector roulette__sector_n">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">200</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_ne">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">500</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_e">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">1 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_se">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_s">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">3 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_sw">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_w">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">50</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_nw">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">100</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-			
-			</div>
-			<div class="roulette__arrow"></div>
-		</div>
+	<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header__wrap">
+                    <a href="/" class="header__logo">  <svg xmlns="http://www.w3.org/2000/svg" width="119.001" height="84" viewBox="0 0 119.001 84"> <path id="Combined_Shape" data-name="Combined Shape" d="M72.293,84a9.061,9.061,0,0,1-7.086-3.022l2.674-2.7a6.113,6.113,0,0,0,4.679,2.139,3.488,3.488,0,0,0,2.213-.612,1.985,1.985,0,0,0,.729-1.635c0-.843-.257-1.741-2.166-2.005l-1.845-.241a7.331,7.331,0,0,1-4.335-1.8,5.1,5.1,0,0,1-1.387-3.764c0-3.444,2.75-5.67,7.006-5.67a8.325,8.325,0,0,1,6.471,2.621l-2.7,2.728a4.88,4.88,0,0,0-4.01-1.765c-1.742,0-2.7.646-2.7,1.818,0,1.227.581,1.752,2.219,2.006l1.845.294a7.753,7.753,0,0,1,4.268,1.795,4.912,4.912,0,0,1,1.4,3.741C79.566,81.674,76.779,84,72.293,84ZM57.32,84a9.058,9.058,0,0,1-7.086-3.022l2.674-2.7a6.111,6.111,0,0,0,4.679,2.139A3.486,3.486,0,0,0,59.8,79.8a1.985,1.985,0,0,0,.729-1.635c0-.843-.257-1.741-2.165-2.005l-1.845-.241a7.33,7.33,0,0,1-4.335-1.8A5.1,5.1,0,0,1,50.8,70.361c0-3.444,2.75-5.67,7.006-5.67a8.321,8.321,0,0,1,6.47,2.621l-2.7,2.728a4.884,4.884,0,0,0-4.011-1.765c-1.741,0-2.7.646-2.7,1.818,0,1.227.581,1.752,2.218,2.006l1.845.294a7.755,7.755,0,0,1,4.269,1.795,4.912,4.912,0,0,1,1.4,3.741A5.593,5.593,0,0,1,62.7,82.308,8.1,8.1,0,0,1,57.32,84Zm-16.2,0a7.676,7.676,0,0,1-5.96-2.45c-1.492-1.689-2.249-4.113-2.249-7.2a10.712,10.712,0,0,1,2.249-7.2,7.676,7.676,0,0,1,5.96-2.451,7.672,7.672,0,0,1,5.959,2.451,10.712,10.712,0,0,1,2.25,7.2c0,3.092-.757,5.516-2.25,7.2A7.675,7.675,0,0,1,41.117,84Zm0-15.7c-2.445,0-3.9,1.739-3.9,4.653v2.781c0,2.914,1.46,4.654,3.9,4.654s3.9-1.74,3.9-4.654V72.955C45.021,70.041,43.561,68.3,41.117,68.3ZM8.682,84C3.431,84,.419,80.53.419,74.48c0-6.129,3.089-9.788,8.263-9.788a7.787,7.787,0,0,1,4.261,1.07,7.32,7.32,0,0,1,2.717,3.316l-3.5,1.819A3.319,3.319,0,0,0,8.682,68.3C6.2,68.3,4.725,70,4.725,72.848v3c0,2.847,1.479,4.547,3.957,4.547A3.83,3.83,0,0,0,12.4,77.608l3.316,1.926A7.276,7.276,0,0,1,8.682,84Zm12.594-.319h0l-4.063,0V65.012h8.851a5.461,5.461,0,0,1,4.115,1.649A6.168,6.168,0,0,1,31.7,70.976a5.3,5.3,0,0,1-3.4,5.375l3.662,7.327H27.453L24.19,76.832H21.276v6.846l0,0Zm0-15.139v4.868h4.278a1.73,1.73,0,0,0,1.952-1.846V70.387a1.73,1.73,0,0,0-1.952-1.846Zm92.516,15.138h-4.064V68.622h-5.054V65.012h14.171v3.611h-5.053V83.678Zm-9.733,0H95.182V80.443h2.407v-12.2H95.182V65.012h8.878v3.236h-2.407V80.443h2.407v3.235Zm-18.4,0H81.6V65.012h12.38v3.611H85.663v4.065h7.086v3.584H85.663v7.407ZM119,60.069H0V0H119V60.068h0ZM73.057,37.179A7.673,7.673,0,0,0,67.1,39.63a10.709,10.709,0,0,0-2.249,7.2c0,3.094.757,5.518,2.249,7.2a8.473,8.473,0,0,0,11.919,0c1.493-1.688,2.25-4.112,2.25-7.2a10.711,10.711,0,0,0-2.25-7.2A7.675,7.675,0,0,0,73.057,37.179Zm-17.648,0a7.948,7.948,0,0,0-6.12,2.51,10.618,10.618,0,0,0-2.329,7.224,10.819,10.819,0,0,0,2.219,7.133,6.92,6.92,0,0,0,5.429,2.441,5.666,5.666,0,0,0,3.345-.942A3.454,3.454,0,0,0,59.393,53.2h.133v2.969h3.423v-10.4H55.6v3.4h3.476V50.1c0,1.69-1.438,2.782-3.663,2.782-2.673,0-4.145-1.615-4.145-4.547v-3c0-2.931,1.472-4.546,4.145-4.546a3.879,3.879,0,0,1,3.877,2.621l3.316-1.9A7.483,7.483,0,0,0,55.409,37.179Zm27.915.321V56.167h4.064V49.321H90.3l3.263,6.846,4.518,0-3.662-7.326a5.3,5.3,0,0,0,3.4-5.375,6.169,6.169,0,0,0-1.527-4.316A5.461,5.461,0,0,0,92.174,37.5ZM36.744,52.931v3.236h8.877V52.931H43.215V40.736h2.407V37.5H36.744v3.236h2.407v12.2ZM19.739,37.5l6.016,18.667H30.3L36.371,37.5H32.387l-2.781,8.959-1.417,5.857h-.08l-1.471-5.857L23.856,37.5ZM73.057,52.878c-2.445,0-3.9-1.74-3.9-4.654V45.443c0-2.914,1.46-4.653,3.9-4.653s3.9,1.739,3.9,4.653v2.781C76.961,51.138,75.5,52.878,73.057,52.878ZM91.666,45.9H87.388V41.03h4.278a1.73,1.73,0,0,1,1.952,1.846v1.176A1.73,1.73,0,0,1,91.666,45.9Z" transform="translate(0 0)" fill="#fff"/> </svg>  </a>
+                    <div class="header__content">
+                        <nav class="header__nav">
+                            <a class="header__nav-item" href="#">home</a>
+                            <a class="header__nav-item" href="#">about</a>
+                            <a class="header__nav-item" href="#">programs</a>
+                            <a class="header__nav-item" href="#">careers</a>
+                            <a class="header__nav-item" href="#">contacts</a>
+                            <a class="header__nav-item" href="#">blog</a>
+                            <a class="header__nav-item" href="#">store</a>
+                        </nav>
+                        <a href="#" class="header__cart"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 21 19"> <path id="Combined_Shape" data-name="Combined Shape" d="M14.863,19H6.1a3.47,3.47,0,0,1-3.457-2.894L1.583,9.747A2.389,2.389,0,0,1,.038,7.089,2.424,2.424,0,0,1,2.416,5.111h.831L6.889.391A1,1,0,0,1,7.688,0a1.009,1.009,0,0,1,.6.2.972.972,0,0,1,.194,1.378L5.757,5.111h9.709L12.74,1.578a.972.972,0,0,1,.2-1.38,1.015,1.015,0,0,1,1.4.2l3.633,4.718h.581V5.1h.006a2.422,2.422,0,0,1,2.4,1.978A2.385,2.385,0,0,1,19.39,9.747l-1.065,6.369A3.474,3.474,0,0,1,14.866,19ZM4.629,15.8A1.49,1.49,0,0,0,6.11,17.033h8.76A1.49,1.49,0,0,0,16.35,15.8l.986-5.9H3.642Zm-2.651-8.3a.434.434,0,0,0,.438.43H18.558a.43.43,0,1,0,0-.86H2.417A.434.434,0,0,0,1.978,7.508Zm5.349,8.678a1.056,1.056,0,0,1,0-2.111h5.647a1.056,1.056,0,0,1,0,2.111Zm0-2.815a1.056,1.056,0,0,1,0-2.111h5.647a1.056,1.056,0,0,1,0,2.111Z" transform="translate(0)" fill="#fff"/> </svg></a>
+                        <div class="header__menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="hero__wrap">
+                    <h1 class="hero__title h1">JOIN THE MOVEMENT</h1>
+                    <div class="hero__subtitle">Strenght, vigor and discipline. All in one spot.
+                        Become a part of movement.</div>
+                    <div class="hero__buttons">
+                        <a href="#" class="btn"><span>BOOK A FREE CLASS</span></a>
+                        <a href="#" class="btn btn--outline"><span>SEE OUR PROMOTION</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="s-info">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <h2 class="s-info__title h2">The right way to get back your track </h2>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="s-info__text">
+                    <p class="p">At Vigor Crossfit, our primary focus is to get you fit for life in a safe environment</p>
+                    <p class="p">We’re committed to helping you move better and feel great doing it.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="slideshow">
+    <div class="slideshow__heading">
+        <h2 class="slideshow__title h2">We got you. Seriously.</h2>
+        <div class="slideshow__subtitle">Team of our first class rockstar trainers, got you covered. Health plans, strenght training… you name it.</div>
+    </div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slideshow__item lazyload" data-bg="img/slide.jpg"> 
+                <div class="slideshow__item-info">
+                    <div class="slideshow__item-name">Ali Douhani</div>
+                    <div class="slideshow__item-text">2018 Olympic weightlifting champion, 2016 Crossfit Games finalist,  2013 Crossfit Games  - 2nd place </div>
+                </div>
+            </div>
+            <div class="swiper-slide slideshow__item lazyload" data-bg="img/slide1.jpg">
+                <div class="slideshow__item-info">
+                    <div class="slideshow__item-name">Ali Douhani Ali Douhani</div>
+                    <div class="slideshow__item-text">2018 Olympic weightlifting champion, 2016 Crossfit Games finalist </div>
+                </div>
+            </div>
+            <div class="swiper-slide slideshow__item lazyload" data-bg="img/slide2.jpg">
+                <div class="slideshow__item-info">
+                    <div class="slideshow__item-name">Ali Douhani Ali</div>
+                    <div class="slideshow__item-text">2018 Olympic weightlifting champion, 2016 Crossfit Games finalist,  2013 Crossfit Games  - 2nd place 2018 Olympic weightlifting champion, 2016 Crossfit Games finalist,  2013 Crossfit Games  - 2nd place </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="slideshow__all btn-link">MEET ALL OUR COACHES</a>
+        
+        <div class="swiper-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42.426" height="42.426" viewBox="0 0 42.426 42.426">
+    <path id="icn_arrow_big_R_Hover" d="M0,28V0H28" transform="translate(41.012 21.213) rotate(135)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </svg>
+  
+        </div>
+        <div class="swiper-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42.426" height="42.426" viewBox="0 0 42.426 42.426">
+  <path id="icn_arrow_big_L_Default" d="M0,28V0H28" transform="translate(1.414 21.213) rotate(-45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" opacity="0.503"/>
+</svg>
 
-		<div class="content" hide-on-win hide-on-attempt>
-			<h1 class="content__title">Виглядайте приголомшливо цієї зими!</h1>
-			<div class="content__text">
-				<p>Крутіть рулетку й вигравайте персональну знижку на шопінг у VR. </p>
-			</div>
-			<div class="form">
-				<form form action="">
-					<div class="form__title">Введіть email і номер телефону, щоб забрати свій подарунок. </div>
-					<input class="form__input input" type="email" name="email" placeholder="EMAIL" required>
-					<input class="form__input input" type="tel" name="phone" placeholder="телефон" required>
-					<input class="form__submit btn" type="submit" value="Крутити рулетку ">
-				</form>
-			</div>
-		</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+</section>
+	<section class="s-plan">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="s-plan__title h2">Find the right plan</h2>
+                <div class="s-plan__holder">
+                    <div class="s-plan__item">
+                        <div>
+                            <h3 class="s-plan__name h3">BEGINNER</h3>
+                            <ul class="s-plan__list">
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg> 2 times per week</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Stretching</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Light training</li>
+        
+                            </ul>
+                        </div>
+                        
+                        <a href="#" class="s-plan__btn btn btn--sm"><span>$200 / Month</span></a>
+                    </div>
+                    <div class="s-plan__item s-plan__item--active">
+                        <div>
+                            <h3 class="s-plan__name h3">INTERMEDIATE</h3>
+                            <ul class="s-plan__list">
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>3 times per week</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Moderate Stretching</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Moderate cardio training</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Food plan</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Personal training plan</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="s-plan__btn btn btn--sm"><span>$300 / Month</span></a>
+                    </div>
+                    <div class="s-plan__item">
+                        <div>
+                            <h3 class="s-plan__name h3">COMPETITIVE</h3>
+                            <ul class="s-plan__list">
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>6 times per week</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Core exercises</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Hard cardio training</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Strict food plan</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Personal training plan</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Personal trainer</li>
+                                <li class="s-plan__list-item p"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13"> <path id="Icon_Checkmark" data-name="Icon/Checkmark" d="M14.674,0C12.093,2.648,9.123,5.68,6.439,8.43L2.121,4.666,0,7.231l5.473,4.762L6.627,13,7.7,11.9C10.612,8.905,14.079,5.37,17,2.372Z" fill="#ffd100"/> </svg>Competitive courses</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="s-plan__btn btn btn--sm"><span>CONTACT US</span></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+	<section class="s-map">
+   <h2 class="s-map__title h2">Come and stop by</h2>
+   <div class="s-map__map" id="map"></div>
+   <div class="mapinfo">
+    <div class="mapinfo__wrap">
+        <h5 class="mapinfo__title h3">Vigor XF in Outer Richmond</h5>
+        <span class="mapinfo__address">4046 Balboa St, San Francisco, </br> CA 94121, USA</span>
+        <div class="mapinfo__schedule">
+            <span>MON - THU</span><span>05:30–20:00</span>    
+            <span>FRI</span><span>05:30–18:00</span>  
+            <span>SAT</span><span>07:00–14:30</span>  
+            <span>SUN</span><span>10:00–13:00</span>  
+        </div>
+        <div class="mapinfo__gallery imagegallery">
+            <a href="img/gallery/1@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/1.png" alt="img"></a>
+            <a href="img/gallery/2@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/2.png" alt="img"></a>
+            <a href="img/gallery/3@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/3.png" alt="img"></a>
+            <a href="img/gallery/4@2x.png"><span>12 more</span><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/4.png" alt="img"></a>
+            <a href="img/gallery/5@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/5.png" alt="img"></a>
+            <a href="img/gallery/6@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/6.png" alt="img"></a>
+            <a href="img/gallery/7@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/7.png" alt="img"></a>
+            <a href="img/gallery/8@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/8.png" alt="img"></a>
+            <a href="img/gallery/9@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/9.png" alt="img"></a>
+            <a href="img/gallery/10@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/10.png" alt="img"></a>
+            <a href="img/gallery/11@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/11.png" alt="img"></a>
+            <a href="img/gallery/12@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/12.png" alt="img"></a>
+            <a href="img/gallery/13@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/13.png" alt="img"></a>
+            <a href="img/gallery/14@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/14.png" alt="img"></a>
+            <a href="img/gallery/15@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/15.png" alt="img"></a>
+            <a href="img/gallery/16@2x.png"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/gallery/16.png" alt="img"></a>
+        </div>
+    </div>
+    <a href="#" class="mapinfo__close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+    <g id="np_close_2456470_000000" transform="translate(-0.702)">
+      <path id="Path" d="M18.8,17.836a.681.681,0,1,1-.963.963L9.5,10.456,1.164,18.8A.681.681,0,1,1,.2,17.836L8.544,9.5.2,1.163A.681.681,0,0,1,1.164.2L9.5,8.543,17.836.2a.681.681,0,0,1,.963.963L10.456,9.5Z" transform="translate(0.702)"/>
+    </g>
+  </svg>
+  
+    </a>
+</div>
 
-		<div class="content" show-on-win hidden>
-			<h1 class="content__title">Вам посміхнулась Удача! </h1>
-			<div class="content__subtitle">Вітаємо, ви виграли знижку на ---- грн.</div>
-			<div class="content__text">
-				<p>Швидше перевіряйте скриньку,<br>email з подробицями там!</p>
-			</div>
-			<a href="#" class="content__btn btn">По стильні подарунки</a>
-		</div>
-
-		<div class="content" show-on-attempt hide-on-win hidden>
-			<h1 class="content__title">Йой! Не вийшло.</h1>
-			<div class="content__text">
-				<p>У вас ще є - спроби. </p>
-			</div>
-			<a href="#" class="content__btn btn" attempt-button>Крутити ще раз</a>
-		</div>
-
-	</section>
+</section>
 
 
-	<section class="roulette-section" show-on-loss hidden>
-		<div class="content content_alone">
-			<h1 class="content__title">На жаль, спроби крутити рулетку закінчились.</h1>
-			<div class="content__text">
-				<p>Але це не означає, що ви залишились ні з чим. Вигравайте щодня з WOW-акціями у VR!</p>
-			</div>
-			<a href="#" class="content__btn btn">До акцій</a>
-		</div>
-		<div class="categories">
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для жінок</div>
-				</div>
-				<img src="img/cat1.jpg" alt="для жінок">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для чоловіків</div>
-				</div>
-				<img src="img/cat2.jpg" alt="для чоловіків">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-		</div>
-	</section>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFlkXNmF-p_SDOgpPPIQ9BBe6oSuThkBs&callback=initMap&libraries=&v=weekly"></script>
+<script>
+    
+    function initMap(coord){
+        const position = coord || { lat: 37.792093930839606, lng: -122.44200896446415 };
+        const directionsService = new google.maps.DirectionsService();
+        const directionsRenderer = new google.maps.DirectionsRenderer();
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 13.8,
+            disableDefaultUI: true,
+            scrollwheel: false,
+            center: position            
+        });
+        const svgMarker = {
+            path: "M13.4 0C6 0 0 6.1 0 13.6c0 10.7 13.4 22 13.4 22s13.4-12 13.4-22C27 6.1 21 0 13.4 0zm0 16.4c-1.6 0-2.9-1.3-2.9-2.9s1.3-2.9 2.9-2.9 2.9 1.3 2.9 2.9-1.2 2.9-2.9 2.9z",
+            fillColor: "##121417",
+            fillOpacity: 1,
+            strokeWeight: 0,
+            rotation: 0,
+            scale: 1,
+            anchor: new google.maps.Point(15, 30),
+        };
+        const image ="img/marker.png";
+        const marker = new google.maps.Marker({
+            position: { lat: 37.794188498326776, lng: -122.40016708866989},
+            icon: image,
+            map: map,
+        });
+        const marker2 = new google.maps.Marker({
+            position: { lat: 37.771456652114594, lng: -122.42869823086419},
+            icon: image,
+            map: map,
+        });
+        const marker3 = new google.maps.Marker({
+            position: { lat: 37.776366481362345, lng: -122.48496674435853},
+            icon: image,
+            map: map,
+        });
+        
 
-	<!-- <section class="roulette-section">
-		<div class="roulette">
-			<div class="roulette__disc">
-				<div class="roulette__sector roulette__sector_n">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">200</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_ne">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">500</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_e">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">1 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_se">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_s">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">3 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_sw">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_w">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">50</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_nw">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">100</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-			</div>
-			<div class="roulette__arrow"></div>
-		</div>
-		<div class="content">
-			<h1 class="content__title">Вам посміхнулась Удача! </h1>
-			<div class="content__subtitle">Вітаємо, ви виграли знижку на 1 000 грн.</div>
-			<div class="content__text">
-				<p>Швидше перевіряйте скриньку,<br>email з подробицями там!</p>
-			</div>
-			<a href="#" class="content__btn btn">По стильні подарунки</a>
-		</div>
-	</section>
-	<section class="roulette-section">
-		<div class="roulette">
-			<div class="roulette__disc">
-				<div class="roulette__sector roulette__sector_n">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">200</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_ne">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">500</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_e">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">1 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_se">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_s">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">3 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_sw">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_w">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">50</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_nw">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">100</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-			</div>
-			<div class="roulette__arrow"></div>
-		</div>
-		<div class="content">
-			<h1 class="content__title">Йой! Не вийшло.</h1>
-			<div class="content__text">
-				<p>У вас ще є 2 спроби. </p>
-			</div>
-			<a href="#" class="content__btn btn">Крутити ще раз</a>
-		</div>
-	</section>
-	<section class="roulette-section">
-		<div class="roulette">
-			<div class="roulette__disc">
-				<div class="roulette__sector roulette__sector_n">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">200</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_ne">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">500</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_e">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">1 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_se">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_s">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">3 000</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_sw">
-					<div class="roulette__tryagain">спробуйте ще!</div>
-				</div>
-				<div class="roulette__sector roulette__sector_w">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">50</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-				<div class="roulette__sector roulette__sector_nw">
-					<div class="roulette__title">сертифікат на</div>
-					<div class="roulette__number">100</div>
-					<div class="roulette__currency">грн</div>
-				</div>
-			</div>
-			<div class="roulette__arrow"></div>
-		</div>
-		<div class="content">
-			<h1 class="content__title">Залишилась остання спроба.</h1>
-			<div class="content__text">
-				<p>Можливо, саме зараз пощастить!</p>
-			</div>
-			<a href="#" class="content__btn btn">Крутити рулетку</a>
-		</div>
-	</section>
-	<section class="roulette-section">
-		<div class="content content_alone">
-			<h1 class="content__title">На жаль, спроби крутити рулетку закінчились.</h1>
-			<div class="content__text">
-				<p>Але це не означає, що ви залишились ні з чим. Вигравайте щодня з WOW-акціями у VR!</p>
-			</div>
-			<a href="#" class="content__btn btn">До акцій</a>
-		</div>
-		<div class="categories">
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для жінок</div>
-				</div>
-				<img src="img/cat1.jpg" alt="для жінок">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-			<a class="categories__item" href="#">
-				<div class="categories__text">
-					<div class="categories__subtitle">Взуття</div>
-					<div class="categories__title">для чоловіків</div>
-				</div>
-				<img src="img/cat2.jpg" alt="для чоловіків">
-				<svg width="81" height="16" viewBox="0 0 81 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M80.7071 8.70711C81.0976 8.31658 81.0976 7.68342 80.7071 7.29289L74.3431 0.928932C73.9526 0.538408 73.3195 0.538408 72.9289 0.928932C72.5384 1.31946 72.5384 1.95262 72.9289 2.34315L78.5858 8L72.9289 13.6569C72.5384 14.0474 72.5384 14.6805 72.9289 15.0711C73.3195 15.4616 73.9526 15.4616 74.3431 15.0711L80.7071 8.70711ZM0 9H80V7H0V9Z" fill="black"/> </svg>	
-			</a>
-		</div>
-	</section> -->
+
+    }
+</script>
+	<section class="s-products">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="s-products__title h2">Share the passion</h2>
+                <p class="s-products__text p">Support the movement by wearing the toughest gear in the wild. Represent the chapter and yourself in our latest selected gear.</p>
+                <a href="#" class="s-products__btn btn-link">BROWSE OUR SHOP</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-card s-products__card">
+    <a class="product-card__link" href="#">
+        <img class="product-card__img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="img/product.jpg" alt="product">
+    </a>
+    <div class="product-card__data">
+        <div class="product-card__text">
+            <div class="product-card__name">Cross Shorts WMNS</div>
+            <div class="product-card__price">$25.95</div>
+        </div>
+        <a href="#" class="product-card__btn btn btn--xsm"><span>BUY NOW</span></a>
+    </div>
+</div>
+
+
+
+            </div>
+            <div class="col-lg-4">
+                <div class="product-card s-products__card">
+    <a class="product-card__link" href="#">
+        <img class="product-card__img lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-src="img/product1.jpg" alt="product">
+    </a>
+    <div class="product-card__data">
+        <div class="product-card__text">
+            <div class="product-card__name">Lift Heavier t-shirt</div>
+            <div class="product-card__price">$19.95</div>
+        </div>
+        <a href="#" class="product-card__btn btn btn--xsm"><span>BUY NOW</span></a>
+    </div>
+</div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+	
+<section class="s-subscribe">
+    <div class="container">
+        <h2 class="s-subscribe__title h2">Subscribe to our newsletter</h2>
+        <div class="s-subscribe__subtitle">and get $20 off your new membership or your next order in our store.</div>
+        <div class="s-subscribe__form">
+            <form action="">
+                <div class="s-subscribe__form-wrap">
+                    <div class="s-subscribe__input input">
+                        <input class=" input__body" type="email" placeholder="name@email.com" required>
+                    </div>
+                    <a href="#" class="s-subscribe__btn btn btn--outline"><span>SUBSCRIBE</span></a>
+                </div>
+                <span class="s-subscribe__info">We dont spam. I mean… Spam is in a can. Why would we put your email in a can?</span>
+            </form>
+        </div>
+    </div>
+</section>
+	<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3 ">
+                <a class="footer__logo" href="/">
+                    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-6 col-md-3">
+                <h4 class="footer__title">about</h4>
+                <span class="footer__text">
+                    Health inc.</br>
+                    1190 Mission St</br>
+                    San Francisco</br>
+                    CA 94103</br>
+                    USA
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <h4 class="footer__title">sitemap</h4>
+                <nav class="footer__nav">
+                    <a href="#">ABOUT</a>
+                    <a href="#">PROGRAMS</a>
+                    <a href="#">CAREERS</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">STORE</a>
+                </nav>
+            </div>
+            <div class="col-6 col-md-3">
+                <h4 class="footer__title">social</h4>
+                <nav class="footer__nav">
+                    <a href="#">TWITTER</a>
+                    <a href="#">INSTAGRAM</a>
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">YOUTUBE</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+	
+
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
