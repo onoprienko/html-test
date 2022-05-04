@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<meta name="theme-color" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+
+	<div class="shop-cart">
+		<div class="container">
+			<div class="shop-breadcrumbs shop-cart__breadcrumbs">
+				<a href="#">Головна</a>
+				<svg width="25" height="4" viewBox="0 0 25 4" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M21.9415 4C22.32 3.27066 22.6741 2.72365 23.0037 2.35897H0L0 1.64103H23.0037C22.6741 1.27635 22.32 0.729345 21.9415 0L22.5825 0C23.3517 0.831909 24.1575 1.44729 25 1.84615V2.15385C24.1575 2.54131 23.3517 3.1567 22.5825 4H21.9415Z" fill="black"/> </svg>
+				<a href="#">Каталог</a>
+				<svg width="25" height="4" viewBox="0 0 25 4" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M21.9415 4C22.32 3.27066 22.6741 2.72365 23.0037 2.35897H0L0 1.64103H23.0037C22.6741 1.27635 22.32 0.729345 21.9415 0L22.5825 0C23.3517 0.831909 24.1575 1.44729 25 1.84615V2.15385C24.1575 2.54131 23.3517 3.1567 22.5825 4H21.9415Z" fill="black"/> </svg>
+				<a href="#">Кошик</a>
+				<svg width="25" height="4" viewBox="0 0 25 4" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M21.9415 4C22.32 3.27066 22.6741 2.72365 23.0037 2.35897H0L0 1.64103H23.0037C22.6741 1.27635 22.32 0.729345 21.9415 0L22.5825 0C23.3517 0.831909 24.1575 1.44729 25 1.84615V2.15385C24.1575 2.54131 23.3517 3.1567 22.5825 4H21.9415Z" fill="black"/> </svg>
+				<a href="#">Оформити</a>
+			</div>
+			<div class="shop-cart__title-holder">
+				<h1 class="shop-cart__title">Оформити</h1>	
+				<svg width="114" height="20" viewBox="0 0 114 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M100.053 0C101.779 3.64672 103.394 6.38177 104.897 8.20513L0 8.20513L0 11.7949L104.897 11.7949C103.394 13.6182 101.779 16.3533 100.053 20H102.976C106.484 15.8405 110.158 12.7635 114 10.7692V9.23077C110.158 7.29345 106.484 4.21652 102.976 0H100.053Z" fill="black"/> </svg>
+			</div>
+			
+			
+			<div class="shop-cart__checkout">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="shop-cart__checkout-title">Ваші дані:</div>
+						<div class="shop-cart__checkout-item">
+							<input type="text" placeholder="Ім’я">
+						</div>
+						<div class="shop-cart__checkout-item">
+							<input type="text" placeholder="Прізвище">
+						</div>
+						<div class="shop-cart__checkout-item">
+							<input type="email" placeholder="Email">
+						</div>
+						<div class="shop-cart__checkout-item">
+							<input type="tel" placeholder="Телефон">
+						</div>
+					</div>
+					<div class="col-md-4 offset-md-1">
+						<div class="shop-cart__checkout-title">Доставка:</div>
+						<div class="shop-cart__checkout-item shop-cart__checkout-item--radio">
+							<input id="np" type="radio" name="delivery" value="np" checked>
+							<label for="np">Нова Пошта</label>
+						</div>
+						<div class="shop-cart__checkout-item shop-cart__checkout-item--radio">
+							<input id="up" type="radio" name="delivery" value="up">
+							<label for="up">Укрпошта</label>
+						</div>
+						<div class="shop-cart__checkout-item">
+							<textarea name="adress" placeholder="Адреса доставки"></textarea>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="shop-cart__checkout-buttons">
+					<a href="#" class="shop-cart__liqpay">
+						<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.40189 22.2973L1.09997 22.0338C0.366718 21.3972 0.237316 20.2336 0.905843 19.4871L8.75589 10.3541C9.3813 9.60771 10.5243 9.47599 11.2576 10.1565L11.5595 10.42C12.2927 11.0567 12.4221 12.2203 11.7536 12.9667L3.90356 22.0997C3.27811 22.8462 2.17826 22.934 1.40189 22.2973Z" fill="url(#paint0_linear_4901_188984)"/> <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M7.69917 11.9348L7.54821 11.7592L6.34052 13.1643L6.46987 13.318C8.54022 15.4256 7.65601 17.5551 7.18156 18.3016L7.35409 18.104C7.63445 17.7747 8.06577 17.2697 8.51866 16.7209C8.9931 15.8866 9.66168 13.9107 7.69917 11.9348Z" fill="url(#paint1_linear_4901_188984)"/> <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M10.287 14.6792L10.6105 14.3059C10.6321 14.262 10.6752 14.2181 10.6968 14.1742C10.3518 14.5694 9.98512 14.9865 9.64008 15.4036C9.89884 15.1182 10.1145 14.8767 10.287 14.6792Z" fill="url(#paint2_radial_4901_188984)"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7968 10.6396L3.9467 1.50654C3.3213 0.76011 2.17828 0.628387 1.44504 1.30898L1.14311 1.57242C0.409863 2.2091 0.280461 3.37267 0.949029 4.1191L7.56978 11.7592L7.72074 11.9349C9.68329 13.9327 9.01472 15.9086 8.51871 16.7428C8.90688 16.2818 9.29508 15.8208 9.66168 15.4036C10.0068 14.9865 10.3734 14.5694 10.7185 14.1742C11.0635 13.779 11.387 13.4058 11.6027 13.1643C12.3575 12.4178 12.4653 11.386 11.7968 10.6396Z" fill="url(#paint3_linear_4901_188984)"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3654 22.2973L11.0635 22.0338C10.3302 21.3972 10.2008 20.2336 10.8694 19.4871L18.7193 10.3541C19.3449 9.60771 20.4878 9.47599 21.2212 10.1565L21.5229 10.42C22.2563 11.0567 22.3858 12.2203 21.7169 12.9667L13.8671 22.0997C13.2416 22.8462 12.1418 22.934 11.3654 22.2973Z" fill="url(#paint4_linear_4901_188984)"/> <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M17.7491 11.847L17.598 11.6714L16.3901 13.0765L16.5196 13.2301C18.5898 15.3377 17.7058 17.4673 17.2313 18.2138L17.404 18.0162C17.6842 17.6869 18.1158 17.1819 18.5686 16.6331C19.0431 15.7988 19.7115 13.8229 17.7491 11.847Z" fill="url(#paint5_linear_4901_188984)"/> <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M20.2289 14.6792L20.5527 14.3059C20.5739 14.262 20.6172 14.2181 20.6389 14.1742C20.2938 14.5694 19.9271 14.9865 19.5821 15.4036C19.841 15.1182 20.0782 14.8767 20.2289 14.6792Z" fill="url(#paint6_radial_4901_188984)"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7385 10.6396L13.8886 1.50654C13.2632 0.76011 12.1202 0.628387 11.3869 1.30898L11.085 1.57242C10.3518 2.2091 10.2224 3.37267 10.8909 4.1191L17.5118 11.7592L17.6625 11.9349C19.625 13.9327 18.9565 15.9086 18.4604 16.7428C18.8487 16.2818 19.2371 15.8208 19.6038 15.4036C19.9488 14.9865 20.3151 14.5694 20.6605 14.1742C21.0056 13.779 21.329 13.4058 21.5446 13.1643C22.2992 12.4178 22.407 11.386 21.7385 10.6396Z" fill="url(#paint7_linear_4901_188984)"/> <defs> <linearGradient id="paint0_linear_4901_188984" x1="3.85378" y1="25.1479" x2="14.8213" y2="19.9243" gradientUnits="userSpaceOnUse"> <stop stop-color="#1FADC3"/> <stop offset="0.7072" stop-color="#36B98F"/> </linearGradient> <linearGradient id="paint1_linear_4901_188984" x1="7.67919" y1="16.5113" x2="9.71723" y2="16.2197" gradientUnits="userSpaceOnUse"> <stop stop-color="#123F06" stop-opacity="0.01"/> <stop offset="1" stop-color="#123F06"/> </linearGradient> <radialGradient id="paint2_radial_4901_188984" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(5.96128 15.8205) scale(5.25821 6.11755)"> <stop offset="0.4185" stop-color="#123F06" stop-opacity="0.01"/> <stop offset="1" stop-color="#123F06"/> </radialGradient> <linearGradient id="paint3_linear_4901_188984" x1="-3.59713" y1="12.9677" x2="9.66484" y2="17.4695" gradientUnits="userSpaceOnUse"> <stop stop-color="#9FDB57"/> <stop offset="1" stop-color="#71CA5E"/> </linearGradient> <linearGradient id="paint4_linear_4901_188984" x1="13.8078" y1="25.1534" x2="24.7755" y2="19.9299" gradientUnits="userSpaceOnUse"> <stop stop-color="#1FADC3"/> <stop offset="0.7072" stop-color="#36B98F"/> </linearGradient> <linearGradient id="paint5_linear_4901_188984" x1="17.7291" y1="16.4234" x2="19.7669" y2="16.1319" gradientUnits="userSpaceOnUse"> <stop stop-color="#123F06" stop-opacity="0.01"/> <stop offset="1" stop-color="#123F06"/> </linearGradient> <radialGradient id="paint6_radial_4901_188984" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.9123 15.8205) scale(5.25821 6.11755)"> <stop offset="0.4185" stop-color="#123F06" stop-opacity="0.01"/> <stop offset="1" stop-color="#123F06"/> </radialGradient> <linearGradient id="paint7_linear_4901_188984" x1="6.35122" y1="12.9717" x2="19.6132" y2="17.4736" gradientUnits="userSpaceOnUse"> <stop stop-color="#9FDB57"/> <stop offset="1" stop-color="#71CA5E"/> </linearGradient> </defs> </svg>
+						<span>Перейдіть на сторінку сервісу LiqPay, та сплатіть покупку</span>
+					</a>
+					<input type="submit" value="Сплатити">
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+
+
+
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
